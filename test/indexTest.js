@@ -6,9 +6,9 @@ describe('global functions', function() {
 
 
   beforeEach(function(){
-     returnsThisAndArgs = function(){ return {thisValue: this, arguments: Array.from(arguments)} }
-     bob = {name: 'bob'}
-     age = 18
+    returnsThisAndArgs = function(){ return {thisValue: this, arguments: Array.from(arguments)} }
+    bob = {name: 'bob'}
+    age = 18
   })
 
   describe('invokeFunction', function(){
